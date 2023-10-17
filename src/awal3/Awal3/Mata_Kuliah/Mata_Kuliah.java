@@ -1,0 +1,47 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+package awal3.Awal3.Mata_Kuliah;
+
+/**
+ *
+ * @author mariq
+ */
+public class Mata_Kuliah {
+
+    private String kode;
+    private String nama;
+    private int sks;
+    private double bobotNilai;
+    private char grade;
+
+    public Mata_Kuliah(String kode, String nama, int sks, double bobotNilai, char grade) {
+        this.kode = kode;
+        this.nama = nama;
+        this.sks = sks;
+        this.bobotNilai = bobotNilai;
+        this.grade = grade;
+    }
+
+    public String getKode() {
+        return kode;
+    }
+
+    public String getNama() {
+        return nama;
+    }
+
+    public int getSks() {
+        return sks;
+    }
+
+    public double getBobotNilai() {
+        return bobotNilai;
+    }
+
+    public char getGrade() {
+        return grade;
+    }
+
+}
