@@ -18,31 +18,31 @@ public class Main_Class {
     public static void main(String[] args) {
         // TODO code application logic here
         // Material 1
-        Mata_Kuliah mataKuliah1 = new Mata_Kuliah("MK101", "Pemrograman Java", 4, 3.5, 'A');
-        Mata_Kuliah mataKuliah2 = new Mata_Kuliah("MK202", "Basis Data", 3, 3.0, 'B');
-        Mata_Kuliah mataKuliah3 = new Mata_Kuliah("MK303", "Sistem Operasi", 3, 3.2, 'C');
+        final Mata_Kuliah mataKuliah1 = new Mata_Kuliah("MK101", "Pemrograman Java", 4, 3.5, 'A');
+        final Mata_Kuliah mataKuliah2 = new Mata_Kuliah("MK202", "Basis Data", 3, 3.0, 'B');
+        final Mata_Kuliah mataKuliah3 = new Mata_Kuliah("MK303", "Sistem Operasi", 3, 3.2, 'C');
 
         // Material 2
-        Mata_Kuliah mata_Kuliah4 = new Mata_Kuliah("CB-761", "Cyber Security", 4);
-        Mata_Kuliah mata_Kuliah5 = new Mata_Kuliah("HD-853", "Human Development", 8);
-        Mata_Kuliah mata_Kuliah6 = new Mata_Kuliah("WH-781", "Werewolf History", 14);
+        final Mata_Kuliah mata_Kuliah4 = new Mata_Kuliah("CB-761", "Cyber Security", 4);
+        final Mata_Kuliah mata_Kuliah5 = new Mata_Kuliah("HD-853", "Human Development", 8);
+        final Mata_Kuliah mata_Kuliah6 = new Mata_Kuliah("WH-781", "Werewolf History", 14);
 
         // Material 3
-        Mata_Kuliah mata_Kuliah7 = new Mata_Kuliah();
+        final Mata_Kuliah mata_Kuliah7 = new Mata_Kuliah();
         mata_Kuliah7.kode = "WP-851";
         mata_Kuliah7.nama = "Werewolves Philosophy";
         mata_Kuliah7.sks = 6;
         mata_Kuliah7.bobotNilai = 3.8;
         mata_Kuliah7.grade = 'A';
 
-        Mata_Kuliah mata_Kuliah8 = new Mata_Kuliah();
+        final Mata_Kuliah mata_Kuliah8 = new Mata_Kuliah();
         mata_Kuliah8.kode = "WE-391";
         mata_Kuliah8.nama = "Wolf Ecology";
         mata_Kuliah8.sks = 4;
         mata_Kuliah8.bobotNilai = 3.1;
         mata_Kuliah8.grade = 'B';
 
-        Mata_Kuliah mata_Kuliah9 = new Mata_Kuliah();
+        final Mata_Kuliah mata_Kuliah9 = new Mata_Kuliah();
         mata_Kuliah9.kode = "LP-563";
         mata_Kuliah9.nama = "Lion Philosophy";
         mata_Kuliah9.sks = 8;
