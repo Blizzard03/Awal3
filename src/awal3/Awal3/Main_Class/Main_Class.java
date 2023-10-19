@@ -50,6 +50,9 @@ public class Main_Class {
         mata_Kuliah9.grade = 'A';
 
         System.out.println("-----------------------------------------------------------");
+        System.out.println("-----------------------------------------------------------");
+        System.out.println("AWAL 3 PROGRAMS");
+        System.out.println("-----------------------------------------------------------");
         System.out.println("Material 1");
         System.out.println("-----------------------------------------------------------");
         System.out.println("Mata Kuliah 1:");
