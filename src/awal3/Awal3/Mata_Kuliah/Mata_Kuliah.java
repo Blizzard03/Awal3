@@ -13,6 +13,11 @@ public class Mata_Kuliah {
     public String kode, nama;
     public int sks;
     public double bobotNilai;
+    public static double jumlah_nilai = 0;
+
+    public static double getJumlah_nilai() {
+        return jumlah_nilai;
+    }
     public char grade;
 
     // Full Constructor
@@ -58,6 +63,10 @@ public class Mata_Kuliah {
 
     public char getGrade() {
         return grade;
+    }
+    
+    public static double calculate_Average_value(double val){
+        return val;
     }
 
 }

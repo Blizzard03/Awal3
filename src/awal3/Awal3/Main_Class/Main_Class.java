@@ -119,7 +119,9 @@ public class Main_Class {
         System.out.println("SKS: " + mata_Kuliah7.getSks());
         System.out.println("Bobot Nilai: " + mata_Kuliah7.getBobotNilai());
         System.out.println("Grade: " + mata_Kuliah7.getGrade());
-        System.out.println("-----------------------------------------------------------");
+        System.out.println("\n-----------------------------------------------------------");
+        System.out.print("Rata - Rata : " + " " + Mata_Kuliah.calculate_Average_value((mataKuliah1.getBobotNilai() + mataKuliah2.getBobotNilai() + mataKuliah3.getBobotNilai() + mata_Kuliah7.getBobotNilai() + mata_Kuliah8.getBobotNilai() + mata_Kuliah9.getBobotNilai()) / 6));
+        System.out.println("\n-----------------------------------------------------------");
         System.out.println("Program Made by WPA TEAM");
         System.out.println("-----------------------------------------------------------");
     }
