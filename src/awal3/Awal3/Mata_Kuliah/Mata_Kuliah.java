@@ -68,5 +68,9 @@ public class Mata_Kuliah {
     public static double calculate_Average_value(double val){
         return val;
     }
+    
+    public void tampilkan(){
+        System.out.print(nama);
+    }
 
 }

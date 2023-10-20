@@ -4,7 +4,7 @@
  */
 package awal3.Awal3.Main_Class;
 
-import awal3.Awal3.Mata_Kuliah.Mata_Kuliah;
+import awal3.Awal3.Mata_Kuliah.*;
 
 /**
  *
@@ -49,6 +49,9 @@ public class Main_Class {
         mata_Kuliah9.bobotNilai = 3.51;
         mata_Kuliah9.grade = 'A';
 
+        //Material 4
+        final MatakuliahTerori matakuliahTerori1 = new MatakuliahTerori("", "", "", 0, 0, '-');
+        final Matakuliah_Praktek matakuliah_Praktek = new Matakuliah_Praktek(0, "", "", 0, 0, '-');
         System.out.println("-----------------------------------------------------------");
         System.out.println("-----------------------------------------------------------");
         System.out.println("AWAL 3 PROGRAMS");
@@ -120,7 +123,7 @@ public class Main_Class {
         System.out.println("Bobot Nilai: " + mata_Kuliah7.getBobotNilai());
         System.out.println("Grade: " + mata_Kuliah7.getGrade());
         System.out.println("\n-----------------------------------------------------------");
-        System.out.print("Rata - Rata : " + " " + Mata_Kuliah.calculate_Average_value((mataKuliah1.getBobotNilai() + mataKuliah2.getBobotNilai() + mataKuliah3.getBobotNilai() + mata_Kuliah7.getBobotNilai() + mata_Kuliah8.getBobotNilai() + mata_Kuliah9.getBobotNilai()) / 6));
+        System.out.print("Total Nilai : " + " " + Mata_Kuliah.calculate_Average_value((mataKuliah1.getBobotNilai() + mataKuliah2.getBobotNilai() + mataKuliah3.getBobotNilai() + mata_Kuliah7.getBobotNilai() + mata_Kuliah8.getBobotNilai() + mata_Kuliah9.getBobotNilai())));
         System.out.println("\n-----------------------------------------------------------");
         System.out.println("Program Made by WPA TEAM");
         System.out.println("-----------------------------------------------------------");
