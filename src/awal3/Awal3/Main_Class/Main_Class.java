@@ -4,7 +4,9 @@
  */
 package awal3.Awal3.Main_Class;
 
-import awal3.Awal3.Mata_Kuliah.*;
+import awal3.Awal3.Mata_Kuliah.Sub.Matakuliah_Praktek;
+import awal3.Awal3.Mata_Kuliah.Master.Mata_Kuliah;
+import awal3.Awal3.Mata_Kuliah.Sub.MatakuliahTerori;
 
 /**
  *
@@ -50,8 +52,8 @@ public class Main_Class {
         mata_Kuliah9.grade = 'A';
 
         //Material 4
-        final MatakuliahTerori matakuliahTerori1 = new MatakuliahTerori("", "", "", 0, 0, '-');
-        final Matakuliah_Praktek matakuliah_Praktek = new Matakuliah_Praktek(0, "", "", 0, 0, '-');
+        final MatakuliahTerori matakuliahTerori1 = new MatakuliahTerori("", "", "", "", 0, 0, '-');
+        final Matakuliah_Praktek matakuliah_Praktek = new Matakuliah_Praktek(0, 0, "", "", 0, 0, '-');
         System.out.println("-----------------------------------------------------------");
         System.out.println("-----------------------------------------------------------");
         System.out.println("AWAL 3 PROGRAMS");
